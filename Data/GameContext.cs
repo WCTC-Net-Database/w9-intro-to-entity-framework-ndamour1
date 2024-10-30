@@ -10,7 +10,7 @@ public class GameContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=StartingEFCore;Trusted_Connection=True;");
+        optionsBuilder.UseSqlServer("Server=bitsql.wctc.edu;Database=W9-assignment-template_ndamour1;User ID=ndamour1;Password=000517770");
     }
 
     // Seed Method
